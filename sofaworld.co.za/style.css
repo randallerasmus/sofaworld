@@ -845,7 +845,7 @@ body {
   background: #c87065 none repeat scroll 0 0;
 }
 .footer-contact li {
-  display: block;
+  display: grid;
   overflow: hidden;
   padding-bottom: 15px;
 }
