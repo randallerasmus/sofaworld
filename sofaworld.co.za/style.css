@@ -607,7 +607,10 @@ body {
   overflow: hidden;
   position: relative;
 }
-.product-img img { width: 100%;}
+.product-img img {
+  width: 100%;
+}
+
 .product-action {
   background: #fff none repeat scroll 0 0;
   bottom: -40px;
