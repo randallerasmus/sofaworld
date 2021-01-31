@@ -437,7 +437,7 @@
 							<div class="single-product col-lg-12">
 								<div class="product-img">
 									<span class="pro-label sale-label">Sale</span>
-									<a href="single-product.html"><img src="img/product/rsz_product8.jpg" alt="" /></a>
+									<a href="chesterfield_footstool.html"><img src="img/product/rsz_product8.jpg" alt="" /></a>
 									<div class="product-action clearfix">
 <!--										<a href="#" data-toggle="tooltip" data-placement="top" title="Wishlist"><i class="zmdi zmdi-favorite-outline"></i></a>-->
 <!--										<a href="#" data-toggle="modal"  data-target="#productModal" title="Quick View"><i class="zmdi zmdi-zoom-in"></i></a>-->
@@ -1924,5 +1924,29 @@
 		<script src="js/plugins.js"></script>
 		<!-- main js -->
 		<script src="js/main.js"></script>
+
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+
+		<!-- TODO: Add SDKs for Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+		<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-analytics.js"></script>
+
+		<script>
+			// Your web app's Firebase configuration
+			// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+			var firebaseConfig = {
+				apiKey: "AIzaSyBexnqAqAlmayfN3P_-Vj8p1PnMGIcR83Q",
+				authDomain: "sofaworld-firebase.firebaseapp.com",
+				projectId: "sofaworld-firebase",
+				storageBucket: "sofaworld-firebase.appspot.com",
+				messagingSenderId: "170536244189",
+				appId: "1:170536244189:web:f871f08b8fd0d430541c34",
+				measurementId: "G-BYT31WPF36"
+			};
+			// Initialize Firebase
+			firebase.initializeApp(firebaseConfig);
+			firebase.analytics();
+		</script>
 	</body>
 </html>
